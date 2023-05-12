@@ -79,3 +79,10 @@ map ;y "+y
 
 nnoremap H gT
 nnoremap L gt
+
+" Syntax config for non-conventional extensions
+" TF shell template file
+augroup tf_tpl
+  au!
+  autocmd BufNewFile,BufRead *.sh.tpl   set syntax=bash
+augroup END
