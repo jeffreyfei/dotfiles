@@ -1,0 +1,43 @@
+[global_config]
+  inactive_color_offset = 1.0
+[keybindings]
+  new_tab = <Super>t
+  cycle_next = <Primary>Right
+  cycle_prev = <Primary>Left
+  close_term = <Super>w
+  paste = <Primary>v
+  next_tab = <Alt>l
+  prev_tab = <Alt>h
+  switch_to_tab_1 = <Super>1
+  switch_to_tab_2 = <Super>2
+  switch_to_tab_3 = <Super>3
+  switch_to_tab_4 = <Super>4
+  switch_to_tab_5 = <Super>5
+  switch_to_tab_6 = <Super>6
+  switch_to_tab_7 = <Super>7
+  switch_to_tab_8 = <Super>8
+  switch_to_tab_9 = <Super>9
+  switch_to_tab_10 = <Super>0
+  group_tab = <Super>grave
+  insert_number = <Super>q
+  insert_padded = <Shift><Super>exclam
+  layout_launcher = <Shift><Super>at
+[profiles]
+  [[default]]
+    background_darkness = 0.85
+    font = Source Code Pro 12
+    foreground_color = "#00ea14"
+    palette = "#000000:#ff0000:#00aa00:#aa5500:#fffe00:#e200ff:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    use_system_font = False
+  [[j]]
+    background_darkness = 0.95
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+      profile = default
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
